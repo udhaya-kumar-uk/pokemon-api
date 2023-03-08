@@ -1,0 +1,38 @@
+h1,div,image,p {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+    body{
+        
+      
+        background: #23EC55;
+        background: -webkit-radial-gradient(top right, #1b1b1a, #17181a);
+        background: -moz-radial-gradient(top right, #191b19, #1f1b1e);
+        background: radial-gradient(to bottom left, #1f1e1e, #110b0b); 
+
+        }
+        h1{
+            background-color: darkgrey;
+        }
+#wrapper{
+    margin: 2.5vh;
+}
+
+#image:hover .overlay
+{
+   opacity: 1;
+}
+
+.pokemon:hover{
+    transform: scale(1.2);
+    background: transparent;
+    background-color: white;
+
+}
+
+h1:hover {
+    letter-spacing: 5px;
+    color: whitesmoke;
+    transform: scale3d(0.5);
+}
